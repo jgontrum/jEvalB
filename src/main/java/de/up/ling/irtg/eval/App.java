@@ -28,8 +28,6 @@ public class App  {
         goldStream.forEachOrdered(line -> goldRaw.add(line));
 
         assert(evalRaw.size() == goldRaw.size());
-        
-        
 
     }
 }
