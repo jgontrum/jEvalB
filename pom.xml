@@ -28,7 +28,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>de.up.ling.irtg.eval.App</mainClass>
+                            <mainClass>edu.stanford.nlp.parser.metrics.Evalb</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -58,11 +58,24 @@
             <artifactId>jcommander</artifactId>
             <version>1.35</version>
         </dependency>
+        <!--Tests-->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>3.8.1</version>
             <scope>test</scope>
+        </dependency>
+        <!--Standord NLP-->
+        <dependency>
+            <groupId>edu.stanford.nlp</groupId>
+            <artifactId>stanford-corenlp</artifactId>
+            <version>3.5.0</version>
+        </dependency>
+        <dependency>
+            <groupId>edu.stanford.nlp</groupId>
+            <artifactId>stanford-corenlp</artifactId>
+            <version>3.5.0</version>
+            <classifier>models</classifier>
         </dependency>
     </dependencies>
     
